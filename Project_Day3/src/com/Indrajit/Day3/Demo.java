@@ -1,4 +1,4 @@
-package com.Indrajit;
+package com.Indrajit.Day3;
 
 public class Demo {
 
