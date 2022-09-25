@@ -42,7 +42,7 @@ public class Demo3 {
 			ps.setInt(1, id); //This does not accept any SQL query thus it provides better security	
 			ps.setString(2, name); 
 			ps.setInt(3, marks);
-//			We don't have to close prepared statement as when conection will clone it will also 			close automatically.
+//			We don't have to close prepared statement as when conection will clone it will also close automatically.
 			
 			int x = ps.executeUpdate();
 			
